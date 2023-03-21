@@ -18,3 +18,5 @@ function exibehuteNaTela(chute){
     elementoChute.innerHTML = `<div>Vocêdisse:</div>
                      <span class="box">${chute}</span>`
 }
+
+recognition.addEventListener('end',() => recognition.start())
